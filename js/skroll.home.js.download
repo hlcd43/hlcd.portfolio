@@ -1,0 +1,14 @@
+/*! skrollr 0.6.30 (2015-08-12) | Alexander Prinzhorn - https://github.com/Prinzhorn/skrollr | Free to use under terms of MIT license */
+
+
+s = skrollr.init();
+
+jQuery(window).load(function() {
+  $(".theNavigator").delay(500).css({"opacity":"0"}).animate({opacity:'1'},{ duration: 1000 }, "swing");
+  $("#btnMenu").delay(500).css({"margin-left":"-10%", "opacity":"0"}).animate({marginLeft:'0%', opacity:'1'},{ duration: 1000 }, "swing");
+  $("#secIntro").delay(500).css({"bottom":"-5%", "opacity":"0"}).animate({bottom:'0%', opacity:'1'},{ duration: 1000 }, "bounceIn");
+  $(".logoHolder").delay(500).css({"margin-top":"-10%", "opacity":"0"}).animate({marginTop:'0%', opacity:'1'},{ duration: 1000 }, "swing");
+  $(".lingualHolder").delay(500).css({"margin-top":"-10%", "opacity":"0"}).animate({marginTop:'0%', opacity:'1'},{ duration: 1000 }, "swing");
+  $(".btnBook").delay(500).css({"margin-top":"-10%", "opacity":"0"}).animate({marginTop:'0%', opacity:'1'},{ duration: 1000 }, "swing");
+    $("footer").delay(500 ).css({"margin-bottom":"-10%", "opacity":"0"}).animate({marginBottom:'0%', opacity:'1'},{ duration: 1000 }, "swing");
+});
